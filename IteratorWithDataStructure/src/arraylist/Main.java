@@ -1,5 +1,8 @@
 package arraylist;
-
+/**
+ *
+ * @author Abdullah Shublaq
+ */
 import doublelinkedlist.CustomDoubleLinkedList;
 import doublelinkedlist.CustomDoubleLinkedListIterator;
 import linkedlist.CustomLinkedList;
