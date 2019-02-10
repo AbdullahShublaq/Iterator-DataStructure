@@ -11,7 +11,9 @@ import linkedlist.CustomLinkedListIterator;
 public class Main {
 
     public static void main(String[] args) {
+        
         System.out.println("/*----------------ArrayList Iterator----------------*/\n");
+        
         CustomArrayList<String> arrayList = new CustomArrayList();
 
         CustomArrayListIterator<String> arrayListIterator = new CustomArrayListIterator(arrayList);
@@ -42,6 +44,7 @@ public class Main {
         }
 
         System.out.println("\n/*----------------LinkedList Iterator----------------*/\n");
+        
         CustomLinkedList<String> LinkedList = new CustomLinkedList();
 
         CustomLinkedListIterator<String> LinkedListIterator = new CustomLinkedListIterator(LinkedList);
@@ -71,6 +74,7 @@ public class Main {
             }
         }
         System.out.println("\n/*----------------DoubleLinkedList Iterator----------------*/\n");
+        
         CustomDoubleLinkedList<String> DoubleLinkedList = new CustomDoubleLinkedList();
 
         CustomDoubleLinkedListIterator<String> DoubleLinkedListIterator = new CustomDoubleLinkedListIterator(DoubleLinkedList);
